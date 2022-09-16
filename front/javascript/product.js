@@ -124,8 +124,8 @@ function handleAddTocart(){
           "qty":Number(quantity_selected),
           "id": product_id
      });
-     
-     alert("Le produit a ete ajoute au panier ")
+
+     alert("Le produit a été ajoute au panier ")
     }else{
        //donc augmenter la quantité
       oldCartItems[index].qty=Number(oldCartItems[index].qty)+Number(quantity_selected)<=100 ?Number(oldCartItems[index].qty)+Number(quantity_selected) :100
