@@ -90,7 +90,9 @@ fetch(uniqueProduct)
               const addToCart = document.getElementById("addToCart");
               addToCart.addEventListener("click", handleAddTocart)
 
-      
+      } else {
+        document.getElementById("product_display").innHTML='PAS DE PRODUIT'
+      }
 
 
     })
