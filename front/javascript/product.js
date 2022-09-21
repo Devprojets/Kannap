@@ -90,9 +90,7 @@ fetch(uniqueProduct)
               const addToCart = document.getElementById("addToCart");
               addToCart.addEventListener("click", handleAddTocart)
 
-      } else {
-            document.write('PAS DE PRODUIT')
-      }
+      
 
 
     })
