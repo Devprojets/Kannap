@@ -91,7 +91,7 @@ fetch(uniqueProduct)
               addToCart.addEventListener("click", handleAddTocart)
 
       } else {
-        document.getElementById("product_display").innHTML='PAS DE PRODUIT'
+        document.getElementById("product_display").innerHTML('PAS DE PRODUIT')
       }
 
 
