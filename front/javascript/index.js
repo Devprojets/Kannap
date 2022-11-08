@@ -4,7 +4,7 @@
 const itemsSection = document.getElementById("items");
 
 //url du endpoint list de produit du back
-const url = "http://localhost:3000/api/products";
+const url = "https://projet5.onrender.com";
 
 //requete api de la list des produi
 fetch(url)
