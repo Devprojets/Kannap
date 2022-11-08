@@ -1,5 +1,5 @@
 var itemsSection = document.getElementById("items");
-var url = "http://localhost:3000/api/products"
+var url = "https://projet5.onrender.com"
 
 fetch(url)
   .then(response => response.json())
