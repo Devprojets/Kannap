@@ -1,5 +1,5 @@
 const itemsSection = document.getElementById("items");
-const url = "https://projet5.onrender.com"
+const url = "https://projet5.onrender.com/api/products"
 let productsDatas=[]
 let cartItems = JSON.parse(localStorage.getItem('cartItems')||'[]')
 
