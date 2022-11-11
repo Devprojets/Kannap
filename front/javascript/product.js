@@ -1,5 +1,5 @@
 /* const itemsSection = document.getElementById("items");*/
-const url = "https://projet5.onrender.com/" 
+const url = "https://projet5.onrender.com/api/products" 
 
 
 //recupere l'url de la page
